@@ -1,0 +1,38 @@
+# ============================================================
+# Q-Nirvana .gitignore
+# ============================================================
+
+# --- SECRETS (NEVER commit these) ---
+backend/.env
+backend/src/config/firebase-service-account.json
+backend/src/config/
+
+# --- Dependencies ---
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# --- Build output ---
+frontend/dist/
+frontend/build/
+
+# --- Logs ---
+*.log
+backend/booking_error.log
+npm-debug.log*
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Editor files ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# --- Vite cache ---
+frontend/.vite/
